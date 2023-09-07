@@ -5,7 +5,7 @@ public class SnakeandLadder {
     int [] board = new int[n*n];
     int [] start = new int[]{2, 4, 6, 10};
     int [] end = new int[]{5, 12, 2, 7};
-    int dice = 6;
+    int dice = 10;
     for(int i = 0; i< board.length; i++)
     {
         board[i] = i+1;
