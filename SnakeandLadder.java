@@ -1,7 +1,7 @@
 public class SnakeandLadder {
      public static void main(String[] args) {
         
-    int n = 4;
+    int n = 10;
     int [] board = new int[n*n];
     int [] start = new int[]{2, 4, 6, 10};
     int [] end = new int[]{5, 12, 2, 7};
